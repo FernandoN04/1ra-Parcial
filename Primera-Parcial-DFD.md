@@ -37,7 +37,7 @@ Obtener el promedio de N numeros positivos.
 6. Validamos si se cumple la condicion de la cantidad de numeros ingresado si aun no han pasado las veces que el usuario pidio seguimos el ciclo hasta terminar.
 7. Para finalaizar sacamos el promedio dividiendo el total de numeros sumado y dividiendolo la cantidad de numeros ingresados, imprimimos el resultado y cerramos el diagrama.
 
-![dfd2](DFD2.jpg)
+![DFD2](https://github.com/FernandoN04/1ra-Parcial/assets/145720700/4ce98a57-79a2-4a15-81cc-7d92c0154b88)
 
 | c | s | i | i >= 2 | n | n > 0 | s = s + n | c = c + 1 | c >= i | prom = s / i |
 | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ----------- | 
@@ -57,7 +57,7 @@ Obtener el promedio de 3 numeros cualquiera.
 4. Aumentamos el contador y lo validamos en la condicion si ya ha sido ingresado los 3 numeros pasara al siguiente paso si no regresara a preguntar los numeros faltantes.
 5. Para finalizar obtendremos el promedio dividiendo el acumulador por el contador o la cantidad de numeros ingresados en este caso 3, mostraremos el mensaje de cuanto fue el promedio y cerramos el diagrama.
 
-![dfd3](DFD33.jpg)
+![DFD33](https://github.com/FernandoN04/1ra-Parcial/assets/145720700/d5159918-db0a-4ed9-a13e-474186745d9f)
 
 | c | s | n | n > 0 | s = s + n | c = c + 1 | c >= 3 | prom = s / 3 | 
 | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
@@ -78,7 +78,7 @@ Elevar al cuadrado cualquier numero ingresado.
 3. Realizamos la operacion multiplicando el numero por si mismo. 
 4. Imprimimos el resultado y cerramos el diagrama.
 
-![dfd4](DFD4.jpg)
+![DFD4](https://github.com/FernandoN04/1ra-Parcial/assets/145720700/b982b222-856b-4fbe-8167-ba1bf1388a5c)
 
 | n | n >= 0 | cuadrado = n * n |
 | ---------- | ---------- | ---------- |
@@ -97,7 +97,7 @@ Capture N numeros enteros positivos obtenga la suma del cuadrado de los pares y 
 4. Aumentamos en contador y despues determinamos si un numero es par o impar, si da verdadero se hara un proceso para sacar la potencia al cuadrado del numero y guardarlo en el acumulador, si no es el caso y da falso pasara al otro proceso pero ahora al cubo.
 5. Despues pasa por un condicionador para determinar si ya fueron ingresados todos los numeros si no es asi lo regresara para terminar de ingresar los numero faltantes, ya que de verdadero la condicion imprimira el resultado y cerramos el diagrama.
 
-![dfd5](DFD5.jpg)
+![DFD5](https://github.com/FernandoN04/1ra-Parcial/assets/145720700/915ba60e-53ab-4ab9-be0b-88451248edad)
 
 | c | i | cb | cd | i >= 2 | n | n >= 0 | c = c + 1 | n % 2 = 0 | cd = (cd) + (n * n) | cb = (cb) + (n * n * n) | c >= i |
 | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ----------- | ---------- | ----------- |
@@ -119,7 +119,7 @@ Obtener la suma de todos los cuadrados de N numeros capturados del teclado.
 5. Hacemos otra condicion para comprobar si ya ha sido ingresado todos los numero si no es asi empezara el ciclo hasta que se cumpla la condicion.
 6. Para finalizar la condicion da verdadero y le mostraremos al usuario el resultado, terminando cerramos el diagrama.
 
-![dfd6](DFD6.jpg)
+![DFD6](https://github.com/FernandoN04/1ra-Parcial/assets/145720700/dc905af7-8a5d-4eae-a2eb-9db8874f12d3)
 
 | c | s | i | i >= 2 | n | n => 0 | c = c + 1 | s = (s) + (n * n) | c >= i |
 | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
@@ -138,7 +138,7 @@ Escriba un DFD que dado el año de nacimiento indique cuantos años va cumplir e
 3. Para finalizar hacemos la operacion restando el año actual al de nacimiento y sumando un 1, terminamos imprimiendo el resultado cerrando el diagrama.
 
 
-![dfd7](DFD7.jpg)
+![DFD7](https://github.com/FernandoN04/1ra-Parcial/assets/145720700/bd434245-5f79-4a53-a3ea-ec1593f47cd9)
 
 | AN | AN >= 0 AND AN < 2023| CM = AN - 2023 + 1 |
 | ---------- | ---------- | ---------- |
@@ -158,7 +158,7 @@ Obtenga la suma de 5 numeros capturados entre 5 y 10 inclusivo.
 3. Hacemos la operacion usando el acumulador para sumar los numeros y guardarlo.
 4. Para finalizar validamos si ya se ingresaron todos los numeros luego de dar verdadero damo el resultado de la suma y cerramos el diagrama.
 
-![dfd8](DFD8.jpg)
+![DFD8](https://github.com/FernandoN04/1ra-Parcial/assets/145720700/a8d8d39b-18e5-4207-993a-ec6d76c3d88f)
 
 | c | s | i | i >= 2 | num | num >= 5 AND num <= 10 | c = c + 1 | s = s + num | c >= i |
 | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
@@ -181,7 +181,7 @@ Una empresa desea calcular el sueldo total de varias personas bajo los siguintes
 7. Pasamos por la primera condicional dando verdadero ahora imprimira la nomina y los impuesto a pagar.
 8. Cerramos el diagrama.
 
-![dfd9](DFD9.jpg)
+![DFD9](https://github.com/FernandoN04/1ra-Parcial/assets/145720700/573bcea3-c654-43b2-97d2-65c7ebb024f5)
 
 | p | p >= 1 | c >= p | pers | sb | cb = sb * 1.05 + pers | pa = sb * 1.03 | sba = pa + cb | sba >= 10000 | sbi = sb * 0.30 |sbi = sb * 0.20 |sbf = sba - sbi |sbbf = sbf + sba + sbbf |c = c + 1 |sat = sat + sbi |
 | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -195,7 +195,7 @@ Genere la siguiente secuencia 0,1,0,1,0,1,0,1,0,1,0,1...0,1.
 
 1. Iniciamos el diagrama, imprimimos los mensajes 0 y 1 infinitamente ya que no pide detenerlo.
 
-![dfd10](DFD10.jpg)
+![DFD10](https://github.com/FernandoN04/1ra-Parcial/assets/145720700/602b089e-bacf-4f96-a69e-ee4aee5180b2)
 
 ### <span style="color: red"> Diagrama 11: </span>
 Preguntar un numero y determinar el dia de la semana que es.
@@ -208,7 +208,7 @@ Preguntar un numero y determinar el dia de la semana que es.
 3. Si no es el caso y sobre pasa el numero de 1 a 7 le dara un error.
 4. Cerramos diagrama.
 
-![dfd11](DFD11.jpg)
+![DFD11](https://github.com/FernandoN04/1ra-Parcial/assets/145720700/bda1fa19-7bf2-49a6-aea7-db311234c389)
 
 | n | 1 | 2 | 3 | 4 | 5 | 6 | 7 | Else |
 | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
@@ -228,7 +228,7 @@ La tienda "Bronkos" debe vender productos a N alumnos, ofrecen: tortas, tacos, h
 4. Abrimos un switch con 5 opciones las 4 del menu y una de error, tendra que elegir el usuario que opcion seleccionar y esta contara la opcion seleccionada ademas del contador global, si da error no la contara.
 5. Para finalizar pasamos por la condicion del anterior paso cuando sea verdadero imprimira el resultado y cerraremos el diagrama.
 
-![dfd12](DFD12.jpg)
+![DFD12](https://github.com/FernandoN04/1ra-Parcial/assets/145720700/0fda0789-cd84-44be-8e7c-34cbb883f8b5)
 
 | c | ta | to | pi | hd | n | n >= 1 | c >= n | a | ta = ta + 1 | to = to + 1 | pi = pi + 1 | hd = hd + 1 | Else| c = c + 1|
 | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ----------- | ---------- | ---------- | ---------- | ----------- | ----------- |
@@ -248,7 +248,7 @@ Crea una calculadora funcional que sume, reste, divide y multiplique dos numeros
 4. Ya dependera la opcion que elija el usuario y imprimira el resultado.
 5. Cerramos diagrama.
 
-![dfd13](DFD13.jpg)
+![DFD13](https://github.com/FernandoN04/1ra-Parcial/assets/145720700/4eb166e4-f310-4270-aa93-9ae1175ed63c)
 
 | n1 | n2 | o | r = n1 + n2 | r = n1 - n2 | r = n1 / n2 | r = n1 * n2 | Else |
 | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
@@ -268,7 +268,7 @@ Pedir al usuario un numero para reproducir una serie de 1 y 0.
 5. Despues de pasar vuelve a comparar la bandera si es igual a 0 esta vez no sera verdadero y pasara a imprimir el valor de 1, cambiara la bandera de nuevo y asi las veces que lo pidio el usuario.
 6. Cerramos el diagrama.
 
-![dfd14](DFD14.jpg)
+![DFD14](https://github.com/FernandoN04/1ra-Parcial/assets/145720700/f978f5cd-56c9-4921-952f-01b0b29b46f9)
 
 | c | b | i| c >= i | b == 0 | b = 1 | b = 0 | c = c + 1|
 | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
@@ -286,7 +286,7 @@ Obtenga el cubo de un numero.
 
 2. Para terminar realizamos la operacion del numero al cubo y cerramos el diagrama mostrando la respuesta.
 
-![dfd15](DFD155.jpg)
+![DFD155](https://github.com/FernandoN04/1ra-Parcial/assets/145720700/acb5e911-7a4b-4d40-90cd-852f27c5feee)
 
 | n | n >= 0 | c =  n * n * n |
 | ---------- | ---------- | ---------- |
@@ -304,7 +304,7 @@ Obtenga la edad de una persona.
 3. Despues restamos el año actual con el de nacimiento.
 4. Imprimimos el resultado y cerramos el diagrama.
 
-![dfd16](DFD166.jpg)
+![DFD166](https://github.com/FernandoN04/1ra-Parcial/assets/145720700/ab001b4d-1d49-4f17-b615-74dfd01a8168)
 
 | an | an > 0 AND an < 2023| edad = an - 2023|
 | ---------- | ---------- | ---------- |
