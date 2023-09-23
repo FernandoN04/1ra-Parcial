@@ -15,7 +15,7 @@ Obtener la edad promedio de N personas preguntando su año de nacimiento asumien
 8. Establecemos una última condición para verificar si el contador es igual a la cantidad de personas, lo que nos permitirá calcular el promedio; de lo contrario, volvemos a solicitar las edades restantes de las personas.
 9. Finalmente, calculamos el promedio dividiendo el acumulador de edades por la cantidad de personas y presentamos el resultado. Luego cerramos el diagrama.
 
-![df1](DFD1.jpg)
+![DFD1](https://github.com/FernandoN04/1ra-Parcial/assets/145720700/46718149-cf88-470b-8be8-e935279b5db2)
 
 | c | s | Personas | Personas >= 2 | AN | AN >= 1900 | AN < 2023 | c = c + 1 | s = AN - 2023 | c >= Personas | prom = s / Personas |
 | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ----------- | ----------- |
